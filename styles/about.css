@@ -69,3 +69,14 @@ footer.footer{
     font-size: 1.5rem;
     font-weight: 400;
 }
+@media (max-width: 1200px){
+    .header{
+        padding: 10%;
+    }
+    .presentacion{
+        
+    }
+    .presentacion__contenido{
+        width: auto;
+    }
+}
