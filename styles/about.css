@@ -40,7 +40,7 @@ main.presentacion{
     justify-content: space-between;
 }
 section.presentacion__contenido{
-    width: 800px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -72,6 +72,9 @@ footer.footer{
 @media (max-width: 1200px){
     .header{
         padding: 10%;
+    }
+    .header__menu{
+        gap: 30px;
     }
     .presentacion{
         
