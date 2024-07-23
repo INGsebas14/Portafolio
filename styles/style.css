@@ -125,11 +125,15 @@ footer.footer{
     }
     nav.header__menu{
         justify-content: center;
+        gap: 40px;
     }
     main.presentacion{
     flex-direction: column-reverse;
     }
     section.presentacion__contenido{
         width: auto;
+    }
+    img.presentacio__imagen{
+        width: 50%;
     }
 }
