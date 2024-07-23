@@ -54,7 +54,7 @@ p.presentacion__contenido__parrafo{
     font-family: var(--fuente-montserrat);
     font-weight: 400;
 }
-img.imagen__1{
+img.presentacion___imagen{
     margin-left: 40px;
     margin-right: 0px;
     width: 488px;
@@ -81,5 +81,8 @@ footer.footer{
     }
     .presentacion__contenido{
         width: auto;
+    }
+    .presentacion___imagen{
+        
     }
 }
