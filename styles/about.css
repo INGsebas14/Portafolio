@@ -57,8 +57,8 @@ p.presentacion__contenido__parrafo{
 img.presentacion___imagen{
     margin-left: 40px;
     margin-right: 0px;
-    width: 488px;
-    height: 550px;
+    width: 50%;
+    height: 600px;
 }
 footer.footer{
     background-color: var(--color-terceario);
@@ -70,19 +70,21 @@ footer.footer{
     font-weight: 400;
 }
 @media (max-width: 1200px){
-    .header{
+    header.header{
         padding: 10%;
     }
-    .header__menu{
-        gap: 30px;
+    nav.header__menu{
+        justify-content: center;
+        gap: 40px;
     }
-    .presentacion{
-        
+    main.presentacion{
+        flex-direction: column-reverse;
     }
-    .presentacion__contenido{
+    section.presentacion__contenido{
         width: auto;
     }
-    .presentacion___imagen{
-        
+    img.presentacion___imagen{
+        width: 60%;
+        padding-bottom: 2rem;
     }
 }
