@@ -54,11 +54,11 @@ section.presentacion__contenido{
     font-family: var(--fuente-montserrat);
     font-weight: 400;
 }
-img.imagen__1{
+img.presentacion__imagen{
     margin-left: 40px;
     margin-right: 0px;
-    width: 488px;
-    height: 550px;
+    width: 50%;
+    height: 600px;
 }
 footer.footer{
     background-color: var(--color-terceario);
@@ -73,10 +73,18 @@ footer.footer{
     .header{
         padding: 10%;
     }
-    .presentacion{
-        
+    nav.header__menu{
+        justify-content: center;
+        gap: 40px;
     }
-    .presentacion__contenido{
+    main.presentacion{
+        flex-direction: column-reverse;
+    }
+    section.presentacion__contenido{
         width: auto;
+    }
+    img.presentacion__imagen{
+        width: 60%;
+        padding: 2rem;
     }
 }
