@@ -78,11 +78,11 @@ h2.presentacion__contenido__h2{
     font-weight: 400;
 }
 button.presentacion__contenido__link{
-    width: 50%;
+    width: 70%;
     font-size: 1.5rem;
     padding: 1rem 0;
     border-radius: 8px;
-    color: var(--color-secundario);
+    color: var(--color-7secundario);
     border-color: var(--color-terceario);
     background-color: var(--color-primario);
     font-family: var(--fuente-montserrat);
@@ -134,6 +134,6 @@ footer.footer{
         width: auto;
     }
     img.presentacio__imagen{
-        width: 600px;
+        width: 80%;
     }
 }
